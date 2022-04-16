@@ -1,0 +1,38 @@
+import 'questions.dart';
+
+class QuizBrain {
+  //define te properties of a quiz..........what a quiz usually have.....
+  //the questions and answer
+  List<Question> questionBank = [
+    Question(
+      q: 'is okon a boy',
+      a: true,
+    ),
+    Question(q: 'atim is a girl', a: true),
+    Question(
+      q: 'is okon a wooman',
+      a: false,
+    ),
+    Question(q: 'atim is a boygirl', a: false),
+    Question(
+      q: 'is okon a animal',
+      a: true,
+    ),
+    Question(q: 'atim is a fowl', a: true),
+    Question(
+      q: 'is okon a bird',
+      a: false,
+    ),
+    Question(q: 'atim is a cow', a: false),
+    Question(
+      q: 'is okon a cruel',
+      a: true,
+    ),
+    Question(q: 'atim is a monkey', a: true),
+    Question(
+      q: 'is okon a fox',
+      a: true,
+    ),
+    Question(q: 'atim is a squirrel', a: false),
+  ];
+}
